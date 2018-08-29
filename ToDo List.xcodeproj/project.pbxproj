@@ -14,6 +14,7 @@
 		22C575BE21370470005FC01A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C575BC21370470005FC01A /* LaunchScreen.storyboard */; };
 		22C575C621370617005FC01A /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C575C521370617005FC01A /* ToDoTableViewController.swift */; };
 		22C575C821370714005FC01A /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C575C721370714005FC01A /* ToDo.swift */; };
+		22C575CA21371B13005FC01A /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C575C921371B13005FC01A /* AddToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		22C575BF21370470005FC01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22C575C521370617005FC01A /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		22C575C721370714005FC01A /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		22C575C921371B13005FC01A /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				22C575B02137046E005FC01A /* AppDelegate.swift */,
 				22C575C521370617005FC01A /* ToDoTableViewController.swift */,
 				22C575C721370714005FC01A /* ToDo.swift */,
+				22C575C921371B13005FC01A /* AddToDoViewController.swift */,
 				22C575B42137046E005FC01A /* Main.storyboard */,
 				22C575BA21370470005FC01A /* Assets.xcassets */,
 				22C575BC21370470005FC01A /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				22C575B12137046E005FC01A /* AppDelegate.swift in Sources */,
 				22C575C621370617005FC01A /* ToDoTableViewController.swift in Sources */,
+				22C575CA21371B13005FC01A /* AddToDoViewController.swift in Sources */,
 				22C575B92137046E005FC01A /* ToDo_List.xcdatamodeld in Sources */,
 				22C575C821370714005FC01A /* ToDo.swift in Sources */,
 			);
