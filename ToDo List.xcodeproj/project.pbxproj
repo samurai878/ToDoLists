@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2216DBEF21373AB50077681D /* CompletedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2216DBEE21373AB50077681D /* CompletedViewController.swift */; };
 		22C575B12137046E005FC01A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C575B02137046E005FC01A /* AppDelegate.swift */; };
 		22C575B62137046E005FC01A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C575B42137046E005FC01A /* Main.storyboard */; };
 		22C575B92137046E005FC01A /* ToDo_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22C575B72137046E005FC01A /* ToDo_List.xcdatamodeld */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2216DBEE21373AB50077681D /* CompletedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedViewController.swift; sourceTree = "<group>"; };
 		22C575AD2137046E005FC01A /* ToDo List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDo List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C575B02137046E005FC01A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22C575B52137046E005FC01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				22C575C521370617005FC01A /* ToDoTableViewController.swift */,
 				22C575C721370714005FC01A /* ToDo.swift */,
 				22C575C921371B13005FC01A /* AddToDoViewController.swift */,
+				2216DBEE21373AB50077681D /* CompletedViewController.swift */,
 				22C575B42137046E005FC01A /* Main.storyboard */,
 				22C575BA21370470005FC01A /* Assets.xcassets */,
 				22C575BC21370470005FC01A /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2216DBEF21373AB50077681D /* CompletedViewController.swift in Sources */,
 				22C575B12137046E005FC01A /* AppDelegate.swift in Sources */,
 				22C575C621370617005FC01A /* ToDoTableViewController.swift in Sources */,
 				22C575CA21371B13005FC01A /* AddToDoViewController.swift in Sources */,
