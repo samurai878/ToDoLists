@@ -11,11 +11,26 @@ import UIKit
 class CompletedViewController: UIViewController {
     
 var previousVC = ToDoTableViewController()
-    var selectedToDo = ToDo()
+    var selectedToDo : ToDoCoreData?
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        
+        toDoLabel.text = selectedToDo?.name
+    }
     
     @IBOutlet weak var toDoLabel: UILabel!
     @IBAction func completedTapped(_ sender: Any) {
-        var index = 0
+
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+           
+            if let theToDo = selectedToDo{
+            context.delete(theToDo)
+                navigationController?.popViewController(animated: true)
+        }
+
+/* var index = 0
         for toDo in previousVC.toDos {
             if toDo.name == selectedToDo.name {
                 previousVC.toDos.remove(at: index)
@@ -25,17 +40,14 @@ var previousVC = ToDoTableViewController()
             }
         index += 1
         }
-       
-    }
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-      
-        toDoLabel.text = selectedToDo.name
+  */
+        
         
     }
-
     }
+}
+
+
     
 
 
