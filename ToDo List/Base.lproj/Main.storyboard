@@ -41,7 +41,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="9ib-Ef-PLW" kind="show" identifier="completedToDo" id="W31-So-eJx"/>
+                        <segue destination="9ib-Ef-PLW" kind="show" identifier="moveToComplete" id="W31-So-eJx"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Tu-GS-2oQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -63,8 +63,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SpB-BZ-Vhs">
-                                <rect key="frame" x="149" y="362" width="76" height="30"/>
-                                <state key="normal" title="Completed"/>
+                                <rect key="frame" x="154" y="362" width="67" height="30"/>
+                                <state key="normal" title="Complete"/>
                                 <connections>
                                     <action selector="completedTapped:" destination="9ib-Ef-PLW" eventType="touchUpInside" id="3Ng-0c-cXk"/>
                                 </connections>
